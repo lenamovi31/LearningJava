@@ -59,7 +59,5 @@ public class ConditionalStatements {
         } else {
             System.out.println("Invalid hour provided!");
         }
-
-
     }
 }
