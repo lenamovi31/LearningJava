@@ -93,21 +93,24 @@ public class FirstHomeWork {
         double result = (math + science + english) / 3.0;
         System.out.println(result);
 
-        if (result == >= 90) {
+        if (result >= 90) {
             System.out.println("Grade A");
-        } else if (result == >= 80) {
+        } else if (result >= 80) {
             System.out.println("Grade B");
-        } else if (result == >= 70) {
+        } else if (result >= 70) {
             System.out.println("Grade C");
-        } else if (result == >= 60) {
+        } else if (result >= 60) {
             System.out.println("Grade D");
-        } else if (result == < 60) {
+        } else if (result < 60) {
             System.out.println("Grade F");
         }
 
         // 10. File extension checker
-
-
-
+        String homework= "homework.pdf";
+        if (homework.endsWith(".txt") || homework.endsWith(".doc") ||homework.endsWith(".pdf")) {
+            System.out.println("Valid file extension");
+        } else {
+            System.out.println("Invalid file extension");
+        }
     }
 }
