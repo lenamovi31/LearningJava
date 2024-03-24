@@ -39,11 +39,9 @@ public class Animal {
                 '}';
     }
 
-    public void walk() {
-        System.out.println("I am walking right now!");
+    public void walk() {System.out.println("I am walking right now!");
     }
 
-    public void eat() {
-        System.out.println("I am eating right now!");
+    public void eat() {System.out.println("I am eating right now!");
     }
 }

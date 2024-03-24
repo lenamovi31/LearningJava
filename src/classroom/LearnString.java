@@ -1,8 +1,6 @@
 package classroom;
 
-import java.sql.SQLOutput;
-
-public class LearString {
+public class LearnString {
     public static void main(String[] args) {
 
         // String
@@ -45,6 +43,5 @@ public class LearString {
 
         String randomString = "some text";
         System.out.println(randomString.toUpperCase());
-
     }
 }
